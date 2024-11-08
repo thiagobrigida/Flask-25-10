@@ -9,17 +9,17 @@
             </div>
         {% endfor %}
     {% endif %}
-    <form action="pizzas/save" method="post">
+    <form action="/pizzas/save" method="post">
         <div>
-            <label for="sabor">sabor: </label>
-            <input type="text" name="nome" id="nome">
+            <label for="sabor">Sabor: </label>
+            <input type="text" name="sabor" id="sabor">
         </div>
         <div>
             <label for="ingredientes">Ingredientes: </label>
             <input type="text" name="ingredientes" id="ingredientes">
         </div>
         <div>
-            <label for="preco">Preco: </label>
+            <label for="preco">Preço: </label>
             <input type="text" name="preco" id="preco">
         </div>
         <button type="submit">Salvar</button>

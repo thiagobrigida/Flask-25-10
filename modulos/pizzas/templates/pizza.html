@@ -16,13 +16,13 @@
         <tr>
             <th>Sabor</th>
             <th>Ingredientes</th>
-            <th>Preco</th>
+            <th>Preço</th>
         </tr>
-        {% for u in usuarios %}
+        {% for p in pizzas %}
         <tr>
-            <td>{{u.nome}}</td>
-            <td>{{u.email}}</td>
-            <td>{{u.senha}}</td>
+            <td>{{p.sabor}}</td>
+            <td>{{p.ingredientes}}</td>
+            <td>{{p.preco}}</td>
         </tr>
         {% endfor %}
     </table>
